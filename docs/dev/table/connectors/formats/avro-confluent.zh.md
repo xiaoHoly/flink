@@ -46,7 +46,7 @@ In order to use the Avro Schema Registry format the following dependencies are r
 | :----------------------------------- | :----------------------|
 | `flink-avro-confluent-registry`      | {% if site.is_stable %} [Download](https://repo.maven.apache.org/maven2/org/apache/flink/flink-sql-avro-confluent-registry/{{site.version}}/flink-sql-avro-confluent-registry-{{site.version}}.jar) {% else %} Only available for stable releases. {% endif %} |
 
-How to create a table with Avro-Confluent format
+如何创建使用 Avro-Confluent 格式的表
 ----------------
 
 Here is an example to create a table using Kafka connector and Confluent Avro format.
