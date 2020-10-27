@@ -42,7 +42,7 @@ The Avro Schema Registry format can only be used in conjunction with [Apache Kaf
 
 In order to use the Avro Schema Registry format the following dependencies are required for both projects using a build automation tool (such as Maven or SBT) and SQL Client with SQL JAR bundles.
 
-| Maven dependency                     | SQL Client JAR         |
+| Maven依赖                     | SQL 客户端 JAR         |
 | :----------------------------------- | :----------------------|
 | `flink-avro-confluent-registry`      | {% if site.is_stable %} [Download](https://repo.maven.apache.org/maven2/org/apache/flink/flink-sql-avro-confluent-registry/{{site.version}}/flink-sql-avro-confluent-registry-{{site.version}}.jar) {% else %} Only available for stable releases. {% endif %} |
 
